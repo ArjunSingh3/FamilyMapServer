@@ -28,6 +28,8 @@ public class Database {
              * And also How to and from Where to call these DAO classes/ Methods ????????????????? -> Follow up questioin: Where to call the other children methods of the EVENT DAO for example
              * How to test it to see if it is working or not
              */
+
+            // Service will  get the conenction from the database, and then intialize the DAO's
             event_dao = new EventDAO(connection);
 
 

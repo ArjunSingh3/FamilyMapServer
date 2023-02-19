@@ -13,6 +13,7 @@ import java.sql.Connection;
  * 5. Users related to a certain Person -> NO
  * 6. Users for a certain Event -> NO
  * 7. MAYBE :: LIST OF USERS RELATED TO EACH OTHER
+ * maybe need a login
  */
 public class UserDAO {
     private final Connection conn;
