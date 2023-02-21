@@ -7,5 +7,6 @@ public class AuthTokenDAO {
     public AuthTokenDAO(Connection conn) {
         this.conn = conn;
     }
-    
+    // Create a Create authToken Function:
+
 }

@@ -29,9 +29,6 @@ public class Database {
              * How to test it to see if it is working or not
              */
 
-            // Service will  get the conenction from the database, and then intialize the DAO's
-            event_dao = new EventDAO(connection);
-
 
 
             // start a transaction
